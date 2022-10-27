@@ -1,0 +1,91 @@
+body{
+	margin: 0px;
+}
+
+header{
+	background-color: black;
+	color: white;
+}
+
+nav{
+	background-color: white;
+}
+
+ul{
+	margin: 0px;
+	list-style: none;
+	display: flex;
+}
+
+li{
+	margin: 10px;
+}
+
+h3{
+	animation: bounce; /* referring directly to the animation's @keyframe declaration */
+  	animation-duration: 4s; /* don't forget to set a duration! */
+}
+
+#header-text{
+	background-image: url(https://images.unsplash.com/photo-1587620962725-abab7fe55159?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2531&q=80);
+	height: 400px;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+section{
+	background-color: grey;
+	color: white;
+}
+
+#section1{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.sec1-text{
+	/*CSS Patterns*/
+	background:
+	linear-gradient(135deg, #ECEDDC 25%, transparent 25%) -50px 0,
+	linear-gradient(225deg, #ECEDDC 25%, transparent 25%) -50px 0,
+	linear-gradient(315deg, #ECEDDC 25%, transparent 25%),
+	linear-gradient(45deg, #ECEDDC 25%, transparent 25%);
+	background-size: 100px 100px;
+	background-color: #EC173A;
+	/*End of CSS Patterns*/
+	width: 300px;
+	height: 200px;
+	margin: 10px;
+}
+
+.sec1-text:hover{
+	  animation: bounceOut; 
+  	  animation-duration: 2s; 
+}
+
+img{
+	max-width: 400px;
+	width: 100%;
+	height: auto;
+	margin: 20px;
+}
+
+#section2{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#section3{
+	padding: 50px;
+}
+
+
+footer{
+	background-color: black;
+	color: white;
+}
